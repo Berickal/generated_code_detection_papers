@@ -116,17 +116,15 @@ Many contamination detection work and contamination indices are done on *open-so
 
 <table align="center">
   <tbody>
-    <tr align="center">
-      <th>Paper</th>
-      <th>Dataset</th>
-    </tr>
+    <tr align="center"> <th>Paper</th> <th>Dataset</th> </tr>
     <tr>
-      <td valign="top">
-          Discriminating Human-authored from ChatGPT-Generated Code Via Discernable Feature Analysis
-      </td>
-      <td valign="top">
-          <a href="https://github.com/LiKe-rm/Human-and-ChatGPT-Code-Dataset/tree/main">HUMAN AND CHATGPT CODE DATASET</a>
-      </td>
+      <td> Discriminating Human-authored from ChatGPT-Generated Code Via Discernable Feature Analysis </td>
+      <td> <a href="https://github.com/LiKe-rm/Human-and-ChatGPT-Code-Dataset/tree/main">HUMAN AND CHATGPT CODE DATASET</a> </td>
+    </tr>
+
+    <tr>
+        <td>MAGECODE: Machine-Generated Code Detection Method Using Large Language Models</td>
+        <td> <a href="https://huggingface.co/datasets/HungPhamBKCS/magecode-datasetn">MAGECODE Dataset</a> </td>
     </tr>
   </tbody>
 </table>
