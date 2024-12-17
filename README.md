@@ -126,21 +126,21 @@ Many contamination detection work and contamination indices are done on *open-so
 
 
 <a id="tools"></a>
-### 📊 Datasets
+### 🛠️ Tools
 
 
 <table align="center">
   <tbody>
     <tr align="center">
       <th>Paper</th>
-      <th>Dataset</th>
+      <th>Tools</th>
     </tr>
     <tr>
       <td valign="top">
-          Discriminating Human-authored from ChatGPT-Generated Code Via Discernable Feature Analysis
+          Who Wrote this Code? Watermarking for Code Generation
       </td>
       <td valign="top">
-          <a href="https://github.com/LiKe-rm/Human-and-ChatGPT-Code-Dataset/tree/main">HUMAN AND CHATGPT CODE DATASET</a>
+          <a href="https://github.com/hongcheki/sweet-watermark.">SWEET</a>
       </td>
     </tr>
   </tbody>
