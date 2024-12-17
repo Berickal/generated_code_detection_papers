@@ -123,7 +123,7 @@ Many contamination detection work and contamination indices are done on *open-so
     </tr>
     <tr>
         <td>MAGECODE: Machine-Generated Code Detection Method Using Large Language Models</td>
-        <td> <a href="https://huggingface.co/datasets/HungPhamBKCS/magecode-datasetn">MAGECODE Dataset</a> </td>
+        <td> <a href="https://huggingface.co/datasets/HungPhamBKCS/magecode-dataset">MAGECODE Dataset</a> </td>
     </tr>
   </tbody>
 </table>
