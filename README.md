@@ -119,7 +119,7 @@ In this paper list, we tag each paper with one or more labels defined in the tab
 <a id="datasets"></a>
 ### 📊 Datasets
 
-Many contamination detection work and contamination indices are done on *open-sourced pretraining corpora* against *interested existing benchmarks or datasets*. Below is a non-exhaustive list of these popular choices:
+Many datasets related to the analysis of Human writting and AI generated code has been done. Below is a non-exhaustive list of these popular choices:
 
 <table align="center">
   <tbody>
