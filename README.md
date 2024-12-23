@@ -31,8 +31,6 @@ In this paper list, we tag each paper with one or more labels defined in the tab
 | Category | Explanation |
 |----------|-------------|
 | ![](https://img.shields.io/badge/Analysis-green) | The paper propose a analyse of the existing approach on the generated code detection and the potential features to consider to distinguish human writing from generated code.*. |
-| ![](https://img.shields.io/badge/Tools-brown) | The paper propose a tool to detect generated code or to classify a human writing and generated code. This tag will be follow by a category of the proposed approach*. |
-| ![](https://img.shields.io/badge/Dataset-blue) | The paper propose a dataset for human_writing / generated code classification. Most of these dataset is constituted by coding problems / contests associated with human writing and generated code (Depending of the model).* |
 | ![](https://img.shields.io/badge/Machine_Learning-orange) | The paper proposed an approach based on Machine Learning applied to code features classification following the nature of the submited code.* |
 | ![](https://img.shields.io/badge/Watermarking-cyan) | The paper proposed an approach based on code watermarking. These approches will imply to modify the generated of to force the model to adopt a certain code stylometric that can be detected.* |
 | ![](https://img.shields.io/badge/Code_Protection-purple) | The paper proposed an approach to protect source code copyright by detecting the unauthorized used of a code dataset to train a model.* |
