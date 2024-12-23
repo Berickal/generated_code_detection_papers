@@ -113,7 +113,14 @@ In this paper list, we tag each paper with one or more labels defined in the tab
     Since the remarkable generation performance of large language models raised ethical and legal concerns, approaches to detect machine-generated text by embedding watermarks are being developed. However, we discover that the existing works fail to function appropriately in code generation tasks due to the task's nature of having low entropy. Extending a logit-modifying watermark method, we propose Selective WatErmarking via Entropy Thresholding (SWEET), which enhances detection ability and mitigates code quality degeneration by removing low-entropy segments at generating and detecting watermarks. Our experiments show that SWEET significantly improves code quality preservation while outperforming all baselines, including post-hoc detection methods, in detecting machine-generated code text.
     </details>
 
-1. **Towards Tracing Code Provenance with Code Watermarking** (arXiv May 2023) ![](https://img.shields.io/badge/Watermarking-cyan) <br />
+1. **CodeMark: Imperceptible Watermarking for Code Datasets against Neural Code Completion Models** (arXiv Jul 2023) ![](https://img.shields.io/badge/Watermarking-cyan) <br />
+    *Zhensu Sun, Xiaoning Du, Fu Song, Li Li*
+    [[paper](https://dl.acm.org/doi/10.1145/3611643.3616297)]
+    <details><summary><b>Abstract</b></summary>
+    Code datasets are of immense value for training neural-networkbased code completion models, where companies or organizations have made substantial investments to establish and process these datasets. Unluckily, these datasets, either built for proprietary or public usage, face the high risk of unauthorized exploits, resulting from data leakages, license violations, etc. Even worse, the “black-box” nature of neural models sets a high barrier for externals to audit their training datasets, which further connives these unauthorized usages. Currently, watermarking methods have been proposed to prohibit inappropriate usage of image and natural language datasets. However, due to domain specificity, they are not directly applicable to code datasets, leaving the copyright protection of this emerging and important field of code data still exposed to threats. To fill this gap, we propose a method, named CodeMark, to embed user-defined imperceptible watermarks into code datasets to trace their usage in training neural code completion models. CodeMark is based on adaptive semantic-preserving transformations, which preserve the exact functionality of the code data and keep the changes covert against rule-breakers. We implement CodeMark in a toolkit and conduct an extensive evaluation of code completion models. CodeMark is validated to fulfill all desired properties of practical watermarks, including harmlessness to model accuracy, verifiability, robustness, and imperceptibility.
+    </details>
+
+1. **Towards Tracing Code Provenance with Code Watermarking** (ESEC/FS 2023) ![](https://img.shields.io/badge/Watermarking-cyan) <br />
     *Wei Li, Borui Yang, Yujie Sun, Suyu Chen, Ziyun Song, Liyao Xiang, Xinbing Wang, Chenghu Zhou*
     [[paper](https://arxiv.org/abs/2305.12461)]
     <details><summary><b>Abstract</b></summary>
@@ -172,5 +179,9 @@ Many datasets related to the analysis of Human writting and AI generated code ha
           <a href="https://github.com/hongcheki/sweet-watermark.">SWEET</a>
       </td>
     </tr>
+      <tr>
+          <td>CodeMark: Imperceptible Watermarking for Code Datasets against Neural Code Completion Models</td>
+          <td> <a href="https://github.com/v587su/CodeMark">CodeMark</a>a></td>
+      </tr>
   </tbody>
 </table>
