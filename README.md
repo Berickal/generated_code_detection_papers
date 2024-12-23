@@ -181,7 +181,7 @@ Many datasets related to the analysis of Human writting and AI generated code ha
     </tr>
       <tr>
           <td>CodeMark: Imperceptible Watermarking for Code Datasets against Neural Code Completion Models</td>
-          <td> <a href="https://github.com/v587su/CodeMark">CodeMark</a>a></td>
+          <td> <a href="https://github.com/v587su/CodeMark">CodeMark</a></td>
       </tr>
   </tbody>
 </table>
