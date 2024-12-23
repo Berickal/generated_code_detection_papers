@@ -44,6 +44,13 @@ In this paper list, we tag each paper with one or more labels defined in the tab
 > [!Note]
 > The list is sorted by the date of the first time the paper was released.
 
+1. **Between Lines of Code: Unraveling the Distinct Patterns of Machine and Human Programmers** (ICSE 2025) ![](https://img.shields.io/badge/Analysis-green) <br />
+    *Yuling Shi, Hongyu Zhang, Chengcheng Wan, Xiaodong Gu*
+    [[paper](https://www.computer.org/csdl/proceedings-article/icse/2025/056900a051/215aWoRvPCE)]
+    <details><summary><b>Abstract</b></summary>
+    Large language models have catalyzed an unprecedented wave in code generation. While achieving significant advances, they blur the distinctions between machine- and human-authored source code, causing integrity and authenticity issues of software artifacts. Previous methods such as DetectGPT have proven effective in discerning machine-generated texts, but they do not identify and harness the unique patterns of machine-generated code. Thus, its applicability falters when applied to code. In this paper, we carefully study the specific patterns that characterize machine- and human-authored code. Through a rigorous analysis of code attributes such as lexical diversity, conciseness, and naturalness, we expose unique patterns inherent to each source. We particularly notice that the syntactic segmentation of code is a critical factor in identifying its provenance. Based on our findings, we propose DetectCodeGPT, a novel method for detecting machine-generated code, which improves DetectGPT by capturing the distinct stylized patterns of code. Diverging from conventional techniques that depend on external LLMs for perturbations, DetectCodeGPT perturbs the code corpus by strategically inserting spaces and newlines, ensuring both efficacy and efficiency. Experiment results show that our approach significantly outperforms state-of-the-art techniques in detecting machine-generated code.
+    </details>
+
 1. **Assessing AI Detectors in Identifying AI-Generated Code: Implications for Education** (IEEE/ACM 2024) ![](https://img.shields.io/badge/Analysis-green)<br />
     *PAN, Wei Hung, CHOK, Ming Jie, WONG, Jonathan Leong Shan, Shin, Yung Xin, Poon, Yeong Shian*
     [[paper](https://ieeexplore.ieee.org/document/10554754/)]
