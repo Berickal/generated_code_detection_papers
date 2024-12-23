@@ -35,6 +35,7 @@ In this paper list, we tag each paper with one or more labels defined in the tab
 | ![](https://img.shields.io/badge/Dataset-blue) | The paper propose a dataset for human_writing / generated code classification. Most of these dataset is constituted by coding problems / contests associated with human writing and generated code (Depending of the model).* |
 | ![](https://img.shields.io/badge/Machine_Learning-orange) | The paper proposed an approach based on Machine Learning applied to code features classification following the nature of the submited code.* |
 | ![](https://img.shields.io/badge/Watermarking-cyan) | The paper proposed an approach based on code watermarking. These approches will imply to modify the generated of to force the model to adopt a certain code stylometric that can be detected.* |
+| ![](https://img.shields.io/badge/Code_Protection-purple) | The paper proposed an approach to protect source code copyright by detecting the unauthorized used of a code dataset to train a model.* |
 
 
 <a id="list"></a>
@@ -113,7 +114,7 @@ In this paper list, we tag each paper with one or more labels defined in the tab
     Since the remarkable generation performance of large language models raised ethical and legal concerns, approaches to detect machine-generated text by embedding watermarks are being developed. However, we discover that the existing works fail to function appropriately in code generation tasks due to the task's nature of having low entropy. Extending a logit-modifying watermark method, we propose Selective WatErmarking via Entropy Thresholding (SWEET), which enhances detection ability and mitigates code quality degeneration by removing low-entropy segments at generating and detecting watermarks. Our experiments show that SWEET significantly improves code quality preservation while outperforming all baselines, including post-hoc detection methods, in detecting machine-generated code text.
     </details>
 
-1. **CodeMark: Imperceptible Watermarking for Code Datasets against Neural Code Completion Models** (arXiv Jul 2023) ![](https://img.shields.io/badge/Watermarking-cyan) <br />
+1. **CodeMark: Imperceptible Watermarking for Code Datasets against Neural Code Completion Models** (arXiv Jul 2023) ![](https://img.shields.io/badge/Watermarking-cyan) ![](https://img.shields.io/badge/Code_Protection-purple) <br />
     *Zhensu Sun, Xiaoning Du, Fu Song, Li Li*
     [[paper](https://dl.acm.org/doi/10.1145/3611643.3616297)]
     <details><summary><b>Abstract</b></summary>
