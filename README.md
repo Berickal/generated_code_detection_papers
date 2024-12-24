@@ -200,5 +200,9 @@ Many datasets related to the analysis of Human writting and AI generated code ha
           <td>Between Lines of Code: Unraveling the Distinct Patterns of Machine and Human Programmers</td>
           <td> <a href="https://github.com/YerbaPage/DetectCodeGPT">DetectCodeGPT</a></td>
       </tr>
+      <tr>
+          <td>MCGMark: An Encodable and Robust Online Watermark for LLM-Generated Malicious Code</td>
+          <td><a href="https://github.com/KevinHeiwa/MCGTM">MCGTM</a></td>
+      </tr>
   </tbody>
 </table>
