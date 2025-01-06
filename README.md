@@ -227,7 +227,7 @@ Many datasets related to the analysis of Human writting and AI generated code ha
       </tr>
       <tr>
           <td>GPTSniffer: A CodeBERT-based classifier to detect source code written by ChatGPT</td>
-          <td>https://github.com/MDEGroup/GPTSniffer/tree/master</td>
+          <td><a href="https://github.com/MDEGroup/GPTSniffer/tree/master">GPT Sniffer</a></td>
       </tr>
   </tbody>
 </table>
