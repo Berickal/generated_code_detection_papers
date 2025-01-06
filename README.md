@@ -147,6 +147,13 @@ In this paper list, we tag each paper with one or more labels defined in the tab
     Recent advances in large language models have raised wide concern in generating abundant plausible source code without scrutiny, and thus tracing the provenance of code emerges as a critical issue. To solve the issue, we propose CodeMark, a watermarking system that hides bit strings into variables respecting the natural and operational semantics of the code. For naturalness, we novelly introduce a contextual watermarking scheme to generate watermarked variables more coherent in the context atop graph neural networks. Each variable is treated as a node on the graph and the node feature gathers neighborhood (context) information through learning. Watermarks embedded into the features are thus reflected not only by the variables but also by the local contexts. We further introduce a pretrained model on source code as a teacher to guide more natural variable generation. Throughout the embedding, the operational semantics are preserved as only variable names are altered. Beyond guaranteeing code-specific properties, CodeMark is superior in watermarking accuracy, capacity, and efficiency due to a more diversified pattern generated. Experimental results show CodeMark outperforms the SOTA watermarking systems with a better balance of the watermarking requirements.
     </details>
 
+1. **Distinguishing AI- and Human-Generated Code: a Case Study** (CCS 2023) ![](https://img.shields.io/badge/Analysis-green) ![](https://img.shields.io/badge/Machine_Learning-orange)) <br />
+    * Sufiyan Bukhari, Benjamin Tan, Lorenzo De Carli*
+    [[paper](https://dl.acm.org/doi/10.1145/3605770.3625215)]
+    <details><summary><b>Abstract</b></summary>
+    While the use of AI assistants for code generation has the potential to revolutionize the way software is produced, assistants may generate insecure code, either by accident or as a result of poisoning attacks. They may also inadvertently violate copyright laws by mimicking code protected by restrictive licenses. We argue for the importance of tracking the provenance of AIgenerated code in the software supply chain, so that adequate controls can be put in place to mitigate risks. For that, it is necessary to have techniques that can distinguish between human- and AIgenerate code, and we conduct a case study in regards to whether such techniques can reliably work. We evaluate the effectiveness of lexical and syntactic features for distinguishing AI- and humangenerated code on a standardized task. Results show accuracy up to 92%, suggesting that the problem deserves further investigation.
+    </details>
+
 1. **CoProtector: Protect Open-Source Code against Unauthorized Training Usage with Data Poisoning** (ACM 2022) ![](https://img.shields.io/badge/Watermarking-cyan) ![](https://img.shields.io/badge/Code_Protection-purple)  <br />
     *Zhensu Sun, Xiaoning Du, Fu Song, Mingze Ni, Li Li*
     [[paper](https://dl.acm.org/doi/10.1145/3485447.3512225)]
@@ -217,6 +224,10 @@ Many datasets related to the analysis of Human writting and AI generated code ha
       <tr>
           <td>MCGMark: An Encodable and Robust Online Watermark for LLM-Generated Malicious Code</td>
           <td><a href="https://github.com/KevinHeiwa/MCGTM">MCGTM</a></td>
+      </tr>
+      <tr>
+          <td>GPTSniffer: A CodeBERT-based classifier to detect source code written by ChatGPT</td>
+          <td>https://github.com/MDEGroup/GPTSniffer/tree/master</td>
       </tr>
   </tbody>
 </table>
