@@ -198,6 +198,10 @@ Many datasets related to the analysis of Human writting and AI generated code ha
         <td>Program Code Generation with Generative AIs</td>
          <td> <a href="https://github.com/Back3474/AI-Human-Generated-Program-Code-Dataset/tree/main">AI-Human-Generated-Program-Code-Dataset</a> </td>
     </tr>
+      <tr>
+          <td>An Empirical Study to Evaluate AIGC Detectors on Code Content</td>
+          <td><a href="https://sites.google.com/view/nlccd">NCLD-CDD</a></td>
+      </tr>
   </tbody>
 </table>
 
