@@ -215,13 +215,6 @@ In this paper list, we tag each paper with one or more labels defined in the tab
     </details>
 
 
-1. ** ** () ![](https://img.shields.io/badge/placeholder-gray) <br />
-    **
-    [[paper](#)]
-    <details><summary><b>Abstract</b></summary>
-    
-    </details>
-
 <a id="resources"></a>
 ## 🧰 Resources
 
