@@ -11,9 +11,6 @@ The following repository will be structured as sub-folders following these topic
 - [🧰 Resources](#resources)
     - [📊 Datasets](#datasets)
     - [🛠️ Tools](#tools)
-- [🚩 Citation](#citation)
-- [🎉 Contribution](#contribution)
-- [🤝 Acknowledgement](#acknowledgement)
 
 
 <a id="intro"></a>
